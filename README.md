@@ -1,7 +1,7 @@
-# awesome-face
-face releated algorithm, datasets and papers
+# awesome-face [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/polarisZhao/awesome-face)
+😎  face releated algorithm, datasets and papers  😋
 
-### Papers
+### 🎉 Papers
 
 ##### Metrci Learning：
 
@@ -13,7 +13,7 @@ face releated algorithm, datasets and papers
 
 **DeepID2+:**[Deeply learned face representations are sparse, selective, and robust](https://arxiv.org/abs/1412.1265) [Yi Sun et al., 2014]
 
-**Deep ID v3: **[DeepID3: Face Recognition with Very Deep Neural Networks](https://arxiv.org/abs/1502.00873) [Yi Sun et al., 2015]
+**DeepIDv3:**[DeepID3: Face Recognition with Very Deep Neural Networks](https://arxiv.org/abs/1502.00873) [Yi Sun et al., 2015]
 
 **FaceNet:**
 
@@ -63,12 +63,13 @@ face releated algorithm, datasets and papers
 
 ##### 3D Face Recognition：
 
-- [Deep 3D Face Identification](https://arxiv.org/pdf/1703.10714.pdf) [Donghyun Kim al., 2017]
-- [Learning from Millions of 3D Scans for Large-scale 3D Face Recognition](https://arxiv.org/pdf/1711.05942.pdf) [S. Z. Gilani al.,2018]
+[Deep 3D Face Identification](https://arxiv.org/pdf/1703.10714.pdf) [Donghyun Kim al., 2017]
+
+[Learning from Millions of 3D Scans for Large-scale 3D Face Recognition](https://arxiv.org/pdf/1711.05942.pdf) [S. Z. Gilani al.,2018]
 
 
 
-### Datasets
+### 📦  Datasets
 
 #### Face Recognition
 
@@ -113,10 +114,17 @@ face releated algorithm, datasets and papers
 | **Biwi 3D Audiovisual Corpus of Affective Communication**    | **1000** high quality, dynamic **3D scans** of faces, recorded while pronouncing a set of English sentences. | [Download](http://www.vision.ee.ethz.ch/datasets/b3dac2.en.html) |
 | **Binghampton Univ 3D static and dynamic facial expression** | Analyzing **Facial Expressions** in **3D** Space             | [Download](http://www.cs.binghamton.edu/~lijun/Research/3DFE/3DFE_Analysis.html) |
 
-**References:** 
+#### 🔧 References:
 
 1. <https://github.com/RiweiChen/DeepFace/tree/master/FaceDataset>
 2. <https://www.zhihu.com/question/33505655?sort=created>
 3. https://github.com/betars/Face-Resources
 4. https://zhuanlan.zhihu.com/p/33288325
 5. https://github.com/L706077/DNN-Face-Recognition-Papers
+
+
+
+#### 🕳 ToDo
+
+- [ ] add papers releated code
+- [ ] mark common beachmark
