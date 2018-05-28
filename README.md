@@ -7,23 +7,23 @@ face releated algorithm, datasets and papers
 
 **Deep ID Series**
 
-**DeepID1: **[Deep Learning Face Representation from Predicting 10,000 Classes](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Sun_Deep_Learning_Face_2014_CVPR_paper.pdf) [Yi Sun et al., 2014]
+**DeepID1:**[Deep Learning Face Representation from Predicting 10,000 Classes](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Sun_Deep_Learning_Face_2014_CVPR_paper.pdf) [Yi Sun et al., 2014]
 
-**DeepID2: **[Deep Learning Face Representation by Joint Identification-Verification](https://arxiv.org/abs/1406.4773) [Yi Sun et al., 2014]
+**DeepID2:**[Deep Learning Face Representation by Joint Identification-Verification](https://arxiv.org/abs/1406.4773) [Yi Sun et al., 2014]
 
-**DeepID2+: **[Deeply learned face representations are sparse, selective, and robust](https://arxiv.org/abs/1412.1265) [Yi Sun et al., 2014]
+**DeepID2+:**[Deeply learned face representations are sparse, selective, and robust](https://arxiv.org/abs/1412.1265) [Yi Sun et al., 2014]
 
 **Deep ID v3: **[DeepID3: Face Recognition with Very Deep Neural Networks](https://arxiv.org/abs/1502.00873) [Yi Sun et al., 2015]
 
-**FaceNet: **
+**FaceNet:**
 
 [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/abs/1503.03832) [Florian Schroff et al., 2015]
 
-**Deep Face: **
+**Deep Face:**
 
 [Deep Face Recognition](https://www.robots.ox.ac.uk/~vgg/publications/2015/Parkhi15/parkhi15.pdf) [Omkar M. Parkhi et al., 2015]
 
-#####Margin Based Classification
+##### Margin Based Classification
 
 **Center Loss：**[A Discriminative Feature Learning Approach for Deep Face Recognition](http://ydwen.github.io/papers/WenECCV16.pdf) [Yandong Wen et al., 2016]
 
@@ -61,7 +61,7 @@ face releated algorithm, datasets and papers
 
 [Learning both Weights and Connections for Efficient Neural Networks](https://arxiv.org/abs/1506.02626) [Song Han et al., 2016]
 
-#####3D Face Recognition：
+##### 3D Face Recognition：
 
 - [Deep 3D Face Identification](https://arxiv.org/pdf/1703.10714.pdf) [Donghyun Kim al., 2017]
 - [Learning from Millions of 3D Scans for Large-scale 3D Face Recognition](https://arxiv.org/pdf/1711.05942.pdf) [S. Z. Gilani al.,2018]
