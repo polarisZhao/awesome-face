@@ -1,75 +1,66 @@
 # awesome-face [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/polarisZhao/awesome-face)
 😎  face releated algorithm, datasets and papers  😋
 
-### 🎉 Papers
+## 🎉 Papers
 
-##### Metrci Learning：
+#### Metric Learning：
 
-**Deep ID Series**
+- **Deep ID Series**
 
-**DeepID1:**[Deep Learning Face Representation from Predicting 10,000 Classes](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Sun_Deep_Learning_Face_2014_CVPR_paper.pdf) [Yi Sun et al., 2014]
+​    **DeepID1:** [Deep Learning Face Representation from Predicting 10,000 Classes](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Sun_Deep_Learning_Face_2014_CVPR_paper.pdf) [Yi Sun et al., 2014]
 
-**DeepID2:**[Deep Learning Face Representation by Joint Identification-Verification](https://arxiv.org/abs/1406.4773) [Yi Sun et al., 2014]
+​    **DeepID2:** [Deep Learning Face Representation by Joint Identification-Verification](https://arxiv.org/abs/1406.4773) [Yi Sun et al., 2014]
 
-**DeepID2+:**[Deeply learned face representations are sparse, selective, and robust](https://arxiv.org/abs/1412.1265) [Yi Sun et al., 2014]
+​    **DeepID2+:** [Deeply learned face representations are sparse, selective, and robust](https://arxiv.org/abs/1412.1265) [Yi Sun et al., 2014]
 
-**DeepIDv3:**[DeepID3: Face Recognition with Very Deep Neural Networks](https://arxiv.org/abs/1502.00873) [Yi Sun et al., 2015]
+​    **DeepIDv3:** [DeepID3: Face Recognition with Very Deep Neural Networks](https://arxiv.org/abs/1502.00873) [Yi Sun et al., 2015]
 
-**FaceNet:**
+- **FaceNet:**     [[**third-party implemention**]](https://github.com/davidsandberg/facenet)
 
-[FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/abs/1503.03832) [Florian Schroff et al., 2015]
+​    [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/abs/1503.03832) [Florian Schroff et al., 2015]
 
-**Deep Face:**
+- **Deep Face:**
 
-[Deep Face Recognition](https://www.robots.ox.ac.uk/~vgg/publications/2015/Parkhi15/parkhi15.pdf) [Omkar M. Parkhi et al., 2015]
+​    [Deep Face Recognition](https://www.robots.ox.ac.uk/~vgg/publications/2015/Parkhi15/parkhi15.pdf) [Omkar M. Parkhi et al., 2015]
 
-##### Margin Based Classification
+#### Margin Based Classification
 
-**Center Loss：**[A Discriminative Feature Learning Approach for Deep Face Recognition](http://ydwen.github.io/papers/WenECCV16.pdf) [Yandong Wen et al., 2016]
+- **Center Loss：**   [[**code**]](https://github.com/ydwen/caffe-face)
+  [A Discriminative Feature Learning Approach for Deep Face Recognition](http://ydwen.github.io/papers/WenECCV16.pdf) [Yandong Wen et al., 2016]
 
-[Large-Margin Softmax Loss for Convolutional Neural Networks(L-Softmax loss)](https://arxiv.org/pdf/1612.02295.pdf) [Weiyang Liu al., 2017]
+- **NormFace**     [[**code**]](https://github.com/happynear/NormFace)
 
-[SphereFace: Deep Hypersphere Embedding for Face Recognition](https://arxiv.org/abs/1704.08063) [Weiyang Liu al., 2017]
+  [NormFace: L2 Hypersphere Embedding for Face Verification](https://arxiv.org/pdf/1704.06369.pdf) [Feng Wang al., 2017]
 
-[NormFace: L2 Hypersphere Embedding for Face Verification](https://arxiv.org/pdf/1704.06369.pdf) [Feng Wang al., 2017]
+- **Large-Margin Softmax Loss**   [[**code**]](https://github.com/wy1iu/LargeMargin_Softmax_Loss)
+  [Large-Margin Softmax Loss for Convolutional Neural Networks(L-Softmax loss)](https://arxiv.org/pdf/1612.02295.pdf) [Weiyang Liu al., 2017]
+- **SphereFace**      [[**code**]](https://github.com/wy1iu/sphereface)
+  [SphereFace: Deep Hypersphere Embedding for Face Recognition](https://arxiv.org/abs/1704.08063) [Weiyang Liu al., 2017]
+- **AM-Softmax**   [[**code**]](https://github.com/happynear/AMSoftmax)
+  [AM : Additive Margin Softmax for Face Verification](https://arxiv.org/pdf/1801.05599.pdf) [Feng Wang al., 2018]
 
-[AM : Additive Margin Softmax for Face Verification](https://arxiv.org/pdf/1801.05599.pdf) [Feng Wang al., 2018]
+- **CosFace: **
 
-[AAM : Face Recognition via Centralized Coordinate Learning](https://arxiv.org/pdf/1801.05678.pdf) [Xianbiao al., 2018]
+​    [CosFace: Large Margin Cosine Loss for Deep Face Recognition(Tencent AI Lab)](https://arxiv.org/pdf/1801.09414.pdf) [Hao Wang al., 2018]
 
-[ArcFace: Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/pdf/1801.07698.pdf) [Jiankang Deng al., 2018]
+- **ArcFace:**   [**[code]**](https://github.com/deepinsight/insightface )
 
-[CosFace: Large Margin Cosine Loss for Deep Face Recognition(Tencent AI Lab)](https://arxiv.org/pdf/1801.09414.pdf) [Hao Wang al., 2018]
+​    [ArcFace: Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/pdf/1801.07698.pdf) [Jiankang Deng al., 2018]
 
-**Other loss function：**
+- **CCL：**
 
-[Beyond triplet loss: a deep quadruplet network for person re-identification](https://arxiv.org/pdf/1704.01719.pdf) [Weihua Chen et al., 2017]
+  [Face Recognition via Centralized Coordinate Learning](https://arxiv.org/pdf/1801.05678.pdf) [Xianbiao al., 2018]
 
-[Range Loss for Deep Face Recognition with Long-tail](https://arxiv.org/abs/1611.08976) [Xiao Zhang et al., 2016]
+- **COCO Loss:**       [[**code**]](https://github.com/sciencefans/coco_loss)
 
-[L2-constrained Softmax Loss for Discriminative Face Verification](https://arxiv.org/abs/1703.09507v2) [Rajeev Ranjan al., 2017]
+  [Rethinking Feature Discrimination and Polymerization for Large-scale Recognition](https://arxiv.org/pdf/1710.00870.pdf) [Yu Liu al., 2017]
 
-[Rethinking Feature Discrimination and Polymerization for Large-scale Recognition(CoCo loss)](https://arxiv.org/pdf/1710.00870.pdf) [Yu Liu al., 2017]
+#### Others
 
-[DeepVisage: Making face recognition simple yet with powerful generalization skills](https://arxiv.org/abs/1703.08388) [Abul Hasnat al., 2017]
+- [Beyond triplet loss: a deep quadruplet network for person re-identification](https://arxiv.org/pdf/1704.01719.pdf)[Weihua Chen et al., 2017]
+- [Range Loss for Deep Face Recognition with Long-tail](https://arxiv.org/abs/1611.08976) [Xiao Zhang et al., 2016]
 
-##### Pruning Network
-
-[DSD: Dense-Sparse-Dense Training for Deep Neural Networks](https://arxiv.org/abs/1607.04381) [Song Han et al., 2017]
-
-[Pruning Convolutional Neural Networks for Resource Efficient Transfer Learning](https://arxiv.org/abs/1611.06440) [Pavlo Molchanov et al., 2017]
-
-[Learning both Weights and Connections for Efficient Neural Networks](https://arxiv.org/abs/1506.02626) [Song Han et al., 2016]
-
-##### 3D Face Recognition：
-
-[Deep 3D Face Identification](https://arxiv.org/pdf/1703.10714.pdf) [Donghyun Kim al., 2017]
-
-[Learning from Millions of 3D Scans for Large-scale 3D Face Recognition](https://arxiv.org/pdf/1711.05942.pdf) [S. Z. Gilani al.,2018]
-
-
-
-### 📦  Datasets
+## 📦  Datasets
 
 #### Face Recognition
 
@@ -114,17 +105,20 @@
 | **Biwi 3D Audiovisual Corpus of Affective Communication**    | **1000** high quality, dynamic **3D scans** of faces, recorded while pronouncing a set of English sentences. | [Download](http://www.vision.ee.ethz.ch/datasets/b3dac2.en.html) |
 | **Binghampton Univ 3D static and dynamic facial expression** | Analyzing **Facial Expressions** in **3D** Space             | [Download](http://www.cs.binghamton.edu/~lijun/Research/3DFE/3DFE_Analysis.html) |
 
-#### 🔧 References:
+## 🔧 References:
 
 1. <https://github.com/RiweiChen/DeepFace/tree/master/FaceDataset>
 2. <https://www.zhihu.com/question/33505655?sort=created>
 3. https://github.com/betars/Face-Resources
 4. https://zhuanlan.zhihu.com/p/33288325
 5. https://github.com/L706077/DNN-Face-Recognition-Papers
+6. https://www.zhihu.com/question/67919300
 
+## 🕳 ToDo
 
-
-#### 🕳 ToDo
-
-- [ ] add papers releated code
 - [ ] mark common beachmark
+- [ ] Software
+- [ ] Face Detection
+- [ ] Face Recognition algorithm classification and add coco loss
+- [ ] add 3D、video、few sample and Disguised face recognition
+- [ ] add face recognition releated mothed image
