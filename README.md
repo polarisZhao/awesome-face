@@ -39,7 +39,7 @@
 - **AM-Softmax**   [[**code**]](https://github.com/happynear/AMSoftmax)
   [AM : Additive Margin Softmax for Face Verification](https://arxiv.org/pdf/1801.05599.pdf) [Feng Wang al., 2018]
 
-- **CosFace: **
+- **CosFace:**
 
 ​    [CosFace: Large Margin Cosine Loss for Deep Face Recognition(Tencent AI Lab)](https://arxiv.org/pdf/1801.09414.pdf) [Hao Wang al., 2018]
 
