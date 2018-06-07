@@ -3,7 +3,7 @@
 
 ## 🎉 Paper / Algorithm
 
-###📌 Face Recognition 
+###📌Face Recognition 
 
 #### 1. metric learning：
 
@@ -68,7 +68,7 @@
 - [Beyond triplet loss: a deep quadruplet network for person re-identification](https://arxiv.org/pdf/1704.01719.pdf)[Weihua Chen al., 2017]
 - [Range Loss for Deep Face Recognition with Long-tail](https://arxiv.org/abs/1611.08976) [Xiao Zhang al., 2016]
 
-###📌 Face Detection
+###📌Face Detection
 
 - **Cascade**   [**[code]**](https://github.com/anson0910/CNN_face_detection)
 
@@ -78,17 +78,17 @@
 
    [Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks](https://kpzhang93.github.io/MTCNN_face_detection_alignment/)[K. Zhang al., 2016]
 
-### 📌 Face Alignment
+###📌Face Alignment
 
 - [Look at Boundary: A Boundary-Aware Face Alignment Algorithm](https://arxiv.org/abs/1805.10483)[Wayne Wu al., 2018]
 
-### 📌 Others
+### 📌Others
 
 - [Exploring Disentangled Feature Representation Beyond Face Identification](https://arxiv.org/abs/1804.03487v1)[Yu Liu al., 2018] 
 
 ## 📦  Datasets
 
-###📌 Face Recognition
+###📌Face Recognition
 
 | Datasets          | Description                                                  | Links                                                        |
 | ----------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -101,7 +101,7 @@
 | **IJB-B**         |                                                              | [Download](https://www.nist.gov/itl/iad/image-group/ijbb-dataset-request-form) |
 | **FaceScrub**     | It comprises a total of **106,863** face images of male and female **530** celebrities, with about **200 images per person**. | [Download](http://vintage.winklerbros.net/facescrub.html)    |
 
-### 📌 Face Detection
+### 📌Face Detection
 
 | Datasets        | Description                                                  | Links                                                        |
 | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
