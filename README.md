@@ -1,9 +1,11 @@
 # awesome-face [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/polarisZhao/awesome-face)
 😎  face releated algorithm, datasets and papers  😋
 
-## 🎉 Papers
+## 🎉 Paper / Algorithm
 
-#### Metric Learning：
+###📌 Face Recognition 
+
+#### 1. metric learning：
 
 - **Deep ID Series**
 
@@ -23,7 +25,7 @@
 
 ​    [Deep Face Recognition](https://www.robots.ox.ac.uk/~vgg/publications/2015/Parkhi15/parkhi15.pdf) [Omkar M. Parkhi et al., 2015]
 
-#### Margin Based Classification
+#### 2. margin based classification
 
 - **Center Loss：**   [[**code**]](https://github.com/ydwen/caffe-face)
   [A Discriminative Feature Learning Approach for Deep Face Recognition](http://ydwen.github.io/papers/WenECCV16.pdf) [Yandong Wen et al., 2016]
@@ -55,14 +57,38 @@
 
   [Rethinking Feature Discrimination and Polymerization for Large-scale Recognition](https://arxiv.org/pdf/1710.00870.pdf) [Yu Liu al., 2017]
 
-#### Others
+#### 3.  3D face recognition
 
-- [Beyond triplet loss: a deep quadruplet network for person re-identification](https://arxiv.org/pdf/1704.01719.pdf)[Weihua Chen et al., 2017]
-- [Range Loss for Deep Face Recognition with Long-tail](https://arxiv.org/abs/1611.08976) [Xiao Zhang et al., 2016]
+- [Deep 3D Face Identification ](https://arxiv.org/abs/1703.10714)[Donghyun Kim al., 2017]
+
+- [Learning from Millions of 3D Scans for Large-scale 3D Face Recognition](https://arxiv.org/abs/1711.05942)[Syed Zulqarnain al., 2018] 
+
+#### 4. others
+
+- [Beyond triplet loss: a deep quadruplet network for person re-identification](https://arxiv.org/pdf/1704.01719.pdf)[Weihua Chen al., 2017]
+- [Range Loss for Deep Face Recognition with Long-tail](https://arxiv.org/abs/1611.08976) [Xiao Zhang al., 2016]
+
+###📌 Face Detection
+
+- **Cascade**   [**[code]**](https://github.com/anson0910/CNN_face_detection)
+
+  [A Convolutional Neural Network Cascade for Face Detection](https://ieeexplore.ieee.org/document/7299170/)[Haoxiang Li al., 2015]
+
+- **MTCNN**    [**[code]**](https://github.com/kpzhang93/MTCNN_face_detection_alignment)
+
+   [Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks](https://kpzhang93.github.io/MTCNN_face_detection_alignment/)[K. Zhang al., 2016]
+
+### 📌 Face Alignment
+
+- [Look at Boundary: A Boundary-Aware Face Alignment Algorithm](https://arxiv.org/abs/1805.10483)[Wayne Wu al., 2018]
+
+### 📌 Others
+
+- [Exploring Disentangled Feature Representation Beyond Face Identification](https://arxiv.org/abs/1804.03487v1)[Yu Liu al., 2018] 
 
 ## 📦  Datasets
 
-#### Face Recognition
+###📌 Face Recognition
 
 | Datasets          | Description                                                  | Links                                                        |
 | ----------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -75,7 +101,7 @@
 | **IJB-B**         |                                                              | [Download](https://www.nist.gov/itl/iad/image-group/ijbb-dataset-request-form) |
 | **FaceScrub**     | It comprises a total of **106,863** face images of male and female **530** celebrities, with about **200 images per person**. | [Download](http://vintage.winklerbros.net/facescrub.html)    |
 
-#### Face Detection
+### 📌 Face Detection
 
 | Datasets        | Description                                                  | Links                                                        |
 | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -85,7 +111,7 @@
 | **MALF**        | MALF is the first face detection dataset that supports fine-gained evaluation. MALF consists of **5,250** images and **11,931** faces. | [Download](http://www.cbsr.ia.ac.cn/faceevaluation/)         |
 | **IJB-A**       | IJB-A is proposed for face detection and face recognition. IJB-A contains **24,327** images and **49,759** faces. | [Download](https://www.nist.gov/itl/iad/image-group/ijb-dataset-request-form) |
 
-#### Face Attributes & Keypoints
+### 📌 Face Attributes & Keypoints
 
 | Datasets                 | Description                                                  | Links                                                        |
 | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -94,16 +120,20 @@
 | **Adience**              | Unfiltered faces for **gender** and **age** classification   | [Download](http://www.openu.ac.il/home/hassner/Adience/data.html) |
 | **CACD2000**             | The dataset contains more than 160,000 images of 2,000 celebrities with **age ranging from 16 to 62**. | [Download](http://bcsiriuschen.github.io/CARC/)              |
 | **Caltech10k Web Faces** | The dataset has 10,524 human faces of various resolutions and in **different settings** | [Download](http://www.vision.caltech.edu/Image_Datasets/Caltech_10K_WebFaces/#Description) |
+| **WFLW**                 | **? waiting for release**                                    |                                                              |
 
-#### Others：
+### 📌 Others：
 
-| Datasets                                                     | Description                                                  | Links                                                        |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **3D Mask Attack** Dataset                                   | **76500** frames of **17** persons using Kinect RGBD with eye positions (Sebastien Marcel). | [Download](https://www.idiap.ch/dataset/3dmad)               |
-| **MOBIO**                                                    | **bi-modal** (**audio** and **video**) data taken from 152 people. | [Download](https://www.idiap.ch/dataset/mobio)               |
-| **BANCA**                                                    | The BANCA database was captured in four European languages in **two modalities** (**face** and **voice**). | [Download](http://www.ee.surrey.ac.uk/CVSSP/banca/)          |
-| **Biwi 3D Audiovisual Corpus of Affective Communication**    | **1000** high quality, dynamic **3D scans** of faces, recorded while pronouncing a set of English sentences. | [Download](http://www.vision.ee.ethz.ch/datasets/b3dac2.en.html) |
-| **Binghampton Univ 3D static and dynamic facial expression** | Analyzing **Facial Expressions** in **3D** Space             | [Download](http://www.cs.binghamton.edu/~lijun/Research/3DFE/3DFE_Analysis.html) |
+| Datasets                   | Description                                                  | Links                                                        |
+| -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **3D Mask Attack** Dataset | **76500** frames of **17** persons using Kinect RGBD with eye positions (Sebastien Marcel). | [Download](https://www.idiap.ch/dataset/3dmad)               |
+| **MOBIO**                  | **bi-modal** (**audio** and **video**) data taken from 152 people. | [Download](https://www.idiap.ch/dataset/mobio)               |
+| **BANCA**                  | The BANCA database was captured in four European languages in **two modalities** (**face** and **voice**). | [Download](http://www.ee.surrey.ac.uk/CVSSP/banca/)          |
+| **B3D(AC)^2**              | **1000** high quality, dynamic **3D scans** of faces, recorded while pronouncing a set of English sentences. | [Download](http://www.vision.ee.ethz.ch/datasets/b3dac2.en.html) |
+| **BD-3DFE**                | Analyzing **Facial Expressions** in **3D** Space             | [Download](http://www.cs.binghamton.edu/~lijun/Research/3DFE/3DFE_Analysis.html) |
+| **Bosphorus**              | 105 subjects and 4666 faces 2D & 3D face data                | [Download](http://bosphorus.ee.boun.edu.tr/default.aspx)     |
+| **ND-2006**                | 422 subjects and 9443 faces 3D Face Recognition              | [Download](https://sites.google.com/a/nd.edu/public-cvrl/data-sets) |
+| **FRGC V2.0**              | 466 subjects and 4007 of 3D Face, Visible Face Images        | [Download](https://sites.google.com/a/nd.edu/public-cvrl/data-sets) |
 
 ## 🔧 References:
 
@@ -117,8 +147,7 @@
 ## 🕳 ToDo
 
 - [ ] Software
-- [ ] Face Detection
 - [ ] Face Recognition algorithm classification and add coco loss
-- [ ] add 3D、video、few sample and Disguised face recognition algorithm
+- [ ] add video、few sample and Disguised face recognition algorithm
 - [ ] add face recognition releated mothed image
 
