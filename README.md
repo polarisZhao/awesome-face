@@ -90,16 +90,18 @@
 
 ### 📌 Face Recognition
 
-| Datasets          | Description                                                  | Links                                                        |
-| ----------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **CASIA-WebFace** | **10,575** subjects and **494,414** images                   | [Download](http://www.cbsr.ia.ac.cn/english/CASIA-WebFace-Database.html) |
-| **MegaFace**🏅     | **1 million** faces, **690K** identities                     | [Download](http://megaface.cs.washington.edu/)               |
-| **MS-Celeb-1M**🏅  | about **10M** images for **100K** celebrities   Concrete measurement to evaluate the performance of recognizing one million celebrities | [Download](http://www.msceleb.org)                           |
-| **LFW**🏅          | **13,000** images of faces collected from the web. Each face has been labeled with the name of the person pictured.  **1680** of the people pictured have two or more distinct photos in the data set. | [Download](http://vis-www.cs.umass.edu/lfw/)                 |
-| **VGG Face2**🏅    | The dataset contains **3.31 million** images of **9131** subjects (identities), with an average of 362.6 images for each subject. | [Download](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2/)  |
-| **YouTube Face**  | The data set contains **3,425** videos of **1,595** different people. | [Download](http://www.cs.tau.ac.il/%7Ewolf/ytfaces/)         |
-| **IJB-B**         |                                                              | [Download](https://www.nist.gov/itl/iad/image-group/ijbb-dataset-request-form) |
-| **FaceScrub**     | It comprises a total of **106,863** face images of male and female **530** celebrities, with about **200 images per person**. | [Download](http://vintage.winklerbros.net/facescrub.html)    |
+| Datasets           | Description                                                  | Links                                                        |
+| ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **CASIA-WebFace**  | **10,575** subjects and **494,414** images                   | [Download](http://www.cbsr.ia.ac.cn/english/CASIA-WebFace-Database.html) |
+| **MegaFace**🏅      | **1 million** faces, **690K** identities                     | [Download](http://megaface.cs.washington.edu/)               |
+| **MS-Celeb-1M**🏅   | about **10M** images for **100K** celebrities   Concrete measurement to evaluate the performance of recognizing one million celebrities | [Download](http://www.msceleb.org)                           |
+| **LFW**🏅           | **13,000** images of faces collected from the web. Each face has been labeled with the name of the person pictured.  **1680** of the people pictured have two or more distinct photos in the data set. | [Download](http://vis-www.cs.umass.edu/lfw/)                 |
+| **VGG Face2**🏅     | The dataset contains **3.31 million** images of **9131** subjects (identities), with an average of 362.6 images for each subject. | [Download](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2/)  |
+| **YouTube Face**   | The data set contains **3,425** videos of **1,595** different people. | [Download](http://www.cs.tau.ac.il/%7Ewolf/ytfaces/)         |
+| **IJB-B**          |                                                              | [Download](https://www.nist.gov/itl/iad/image-group/ijbb-dataset-request-form) |
+| **FaceScrub**      | It comprises a total of **106,863** face images of male and female **530** celebrities, with about **200 images per person**. | [Download](http://vintage.winklerbros.net/facescrub.html)    |
+| **Mut1ny**         | head/face segmentation dataset contains over 17.3k labeled images | [Download](http://www.mut1ny.com/face-headsegmentation-dataset) |
+| **Trillion Pairs** | Train: **MS-Celeb-1M-v1c** &  **Asian-Celeb** Test: **ELFW & DELFW** | [Download](http://trillionpairs.deepglint.com/overview)      |
 
 ### 📌Face Detection
 
