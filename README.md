@@ -67,6 +67,7 @@
 
 - [Beyond triplet loss: a deep quadruplet network for person re-identification](https://arxiv.org/pdf/1704.01719.pdf)[Weihua Chen al., 2017]
 - [Range Loss for Deep Face Recognition with Long-tail](https://arxiv.org/abs/1611.08976) [Xiao Zhang al., 2016]
+- [Feature Incay for Representation Regularization](https://arxiv.org/abs/1705.10284)[Yuhui Yuan al., 2017]
 
 ### 📌 Face Detection
 
