@@ -108,10 +108,9 @@
 | **LFW**🏅                   | **13,000** images of faces collected from the web. Each face has been labeled with the name of the person pictured.  **1680** of the people pictured have two or more distinct photos in the data set. | [Download](http://vis-www.cs.umass.edu/lfw/)                 |
 | **VGG Face2**🏅             | The dataset contains **3.31 million** images of **9131** subjects (identities), with an average of 362.6 images for each subject. | [Download](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2/)  |
 | **UMDFaces Dataset-image** | **367,888 face annotations** for **8,277 subjects.**         | [Download](http://www.umdfaces.io)                           |
-| **IJB-B**                  |                                                              | [Download](https://www.nist.gov/itl/iad/image-group/ijbb-dataset-request-form) |
+| **Trillion Pairs**🏅        | Train: **MS-Celeb-1M-v1c** &  **Asian-Celeb** Test: **ELFW & DELFW | [Download](http://trillionpairs.deepglint.com/overview)      |
 | **FaceScrub**              | It comprises a total of **106,863** face images of male and female **530** celebrities, with about **200 images per person**. | [Download](http://vintage.winklerbros.net/facescrub.html)    |
 | **Mut1ny**🏅                | head/face segmentation dataset contains over 17.3k labeled images | [Download](http://www.mut1ny.com/face-headsegmentation-dataset) |
-| **Trillion Pairs**🏅        | Train: **MS-Celeb-1M-v1c** &  **Asian-Celeb** Test: **ELFW & DELFW** | [Download](http://trillionpairs.deepglint.com/overview)      |
 
 #### video face recognition 
 
@@ -135,13 +134,12 @@
 
 ### 📌Face Detection
 
-| Datasets        | Description                                                  | Links                                                        |
-| --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **FDDB**🏅       | **5171** faces in a set of **2845** images                   | [Download](http://vis-www.cs.umass.edu/fddb/index.html)      |
-| **Wider-face**🏅 | **32,203** images and label **393,703** faces with a high degree of variability in scale, pose and occlusion, organized based on **61** event classes | [Download](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/)  |
-| **AFW**         | AFW dataset is built using Flickr images. It has **205** images with **473** labeled faces. For each face, annotations include a rectangular **bounding box**, **6 landmarks** and the **pose angles**. | [Download](http://www.ics.uci.edu/~xzhu/face/)               |
-| **MALF**        | MALF is the first face detection dataset that supports fine-gained evaluation. MALF consists of **5,250** images and **11,931** faces. | [Download](http://www.cbsr.ia.ac.cn/faceevaluation/)         |
-| **IJB-A**       | IJB-A is proposed for face detection and face recognition. IJB-A contains **24,327** images and **49,759** faces. | [Download](https://www.nist.gov/itl/iad/image-group/ijb-dataset-request-form) |
+| Datasets       | Description                                                  | Links                                                       |
+| -------------- | ------------------------------------------------------------ | ----------------------------------------------------------- |
+| **FDDB**🏅      | **5171** faces in a set of **2845** images                   | [Download](http://vis-www.cs.umass.edu/fddb/index.html)     |
+| **Wider-face** | **32,203** images and label **393,703** faces with a high degree of variability in scale, pose and occlusion, organized based on **61** event classes | [Download](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/) |
+| **AFW**        | AFW dataset is built using Flickr images. It has **205** images with **473** labeled faces. For each face, annotations include a rectangular **bounding box**, **6 landmarks** and the **pose angles**. | [Download](http://www.ics.uci.edu/~xzhu/face/)              |
+| **MALF**       | MALF is the first face detection dataset that supports fine-gained evaluation. MALF consists of **5,250** images and **11,931** faces. | [Download](http://www.cbsr.ia.ac.cn/faceevaluation/)        |
 
 ### 📌 Face Attributes & Keypoints
 
@@ -156,11 +154,12 @@
 
 ### 📌 Others：
 
-| Datasets                   | Description                                                  | Links                                               |
-| -------------------------- | ------------------------------------------------------------ | --------------------------------------------------- |
-| **3D Mask Attack** Dataset | **76500** frames of **17** persons using Kinect RGBD with eye positions (Sebastien Marcel). | [Download](https://www.idiap.ch/dataset/3dmad)      |
-| **MOBIO**                  | **bi-modal** (**audio** and **video**) data taken from 152 people. | [Download](https://www.idiap.ch/dataset/mobio)      |
-| **BANCA**                  | The BANCA database was captured in four European languages in **two modalities** (**face** and **voice**). | [Download](http://www.ee.surrey.ac.uk/CVSSP/banca/) |
+| Datasets                   | Description                                                  | Links                                                        |
+| -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **IJB C/B/A**🏅             | IJB C/B/A is currently running **three challenges** related to  **face detection, verification, identification, and identity clustering.** | [Download](https://www.nist.gov/programs-projects/face-challenges) |
+| **MOBIO**                  | **bi-modal** (**audio** and **video**) data taken from 152 people. | [Download](https://www.idiap.ch/dataset/mobio)               |
+| **BANCA**                  | The BANCA database was captured in four European languages in **two modalities** (**face** and **voice**). | [Download](http://www.ee.surrey.ac.uk/CVSSP/banca/)          |
+| **3D Mask Attack** Dataset | **76500** frames of **17** persons using Kinect RGBD with eye positions (Sebastien Marcel). | [Download](https://www.idiap.ch/dataset/3dmad)               |
 
 ## 🏠 Conference & workshop & Transactions
 
@@ -226,4 +225,6 @@
 
 - [ ] Software
 - [ ] add video、few sample and Disguised face recognition algorithm
+- [ ] Add datasets public time and key features、competition and beachmark
+- [ ] add auti-spoofing datasets and cross age、cross pose and Affective Faces
 
