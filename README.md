@@ -132,6 +132,17 @@
 | **FRGC V2.0**  | 466 subjects and 4007 of 3D Face, Visible Face Images        | [Download](https://sites.google.com/a/nd.edu/public-cvrl/data-sets) |
 | **B3D(AC)^2**  | **1000** high quality, dynamic **3D scans** of faces, recorded while pronouncing a set of English sentences. | [Download](http://www.vision.ee.ethz.ch/datasets/b3dac2.en.html) |
 
+#### Anti-spoofing  
+
+| Datasets          | \# of subj. / \# of sess. | Links                                                        | Year | Spoof attacks attacks |
+| ----------------- | :-----------------------: | ------------------------------------------------------------ | ---- | --------------------- |
+| **NUAA**          |           15/3            | [Download](http://parnec.nuaa.edu.cn/xtan/data/nuaaimposterdb.html) | 2010 | **Print**             |
+| **CASIA-MFSD**    |           50/3            | [Download]()                                                 | 2012 | **Print, Replay**     |
+| **Replay-Attack** |           50/1            | [Download](https://www.idiap.ch/dataset/replayattack)        | 2012 | **Print, 2 Replay**   |
+| **MSU-MFSD**      |           35/1            | [Download](https://www.cse.msu.edu/rgroups/biometrics/Publications/Databases/MSUMobileFaceSpoofing/index.htm) | 2015 | **Print, 2 Replay**   |
+| **MSU-USSA**      |          1140/1           | [Download](http://biometrics.cse.msu.edu/Publications/Databases/MSU_USSA/) | 2016 | **2 Print, 6 Replay** |
+| **Oulu-NPU**      |           55/3            | [Download](https://sites.google.com/site/oulunpudatabase/)   | 2017 | **2 Print, 6 Replay** |
+
 ### 📌Face Detection
 
 | Datasets       | Description                                                  | Links                                                       |
@@ -225,6 +236,6 @@
 
 - [ ] Software
 - [ ] add video、few sample and Disguised face recognition algorithm
-- [ ] Add datasets public time and key features、competition and beachmark
-- [ ] add auti-spoofing datasets and cross age、cross pose and Affective Faces
+- [ ] mark datasets public time and key features、competition and beachmark
+- [ ] cross age、cross pose and Affective Faces
 
