@@ -29,18 +29,26 @@
 
 - **Center Loss：**   [[**code**]](https://github.com/ydwen/caffe-face)
   [A Discriminative Feature Learning Approach for Deep Face Recognition](http://ydwen.github.io/papers/WenECCV16.pdf) [Yandong Wen et al., 2016]
+- **Large-Margin Softmax Loss**   [[**code**]](https://github.com/wy1iu/LargeMargin_Softmax_Loss)
+  [Large-Margin Softmax Loss for Convolutional Neural Networks(L-Softmax loss)](https://arxiv.org/pdf/1612.02295.pdf) [Weiyang Liu al., 2017]
+
+![center_norm](./img/softmax_center_l.png)
+
+- **SphereFace：**  **A-Softmax**    [[**code**]](https://github.com/wy1iu/sphereface)
+  [SphereFace: Deep Hypersphere Embedding for Face Recognition](https://arxiv.org/abs/1704.08063) [Weiyang Liu al., 2017]
 
 - **NormFace**     [[**code**]](https://github.com/happynear/NormFace)
 
   [NormFace: L2 Hypersphere Embedding for Face Verification](https://arxiv.org/pdf/1704.06369.pdf) [Feng Wang al., 2017]
 
-- **Large-Margin Softmax Loss**   [[**code**]](https://github.com/wy1iu/LargeMargin_Softmax_Loss)
-  [Large-Margin Softmax Loss for Convolutional Neural Networks(L-Softmax loss)](https://arxiv.org/pdf/1612.02295.pdf) [Weiyang Liu al., 2017]
-- **SphereFace**      [[**code**]](https://github.com/wy1iu/sphereface)
-  [SphereFace: Deep Hypersphere Embedding for Face Recognition](https://arxiv.org/abs/1704.08063) [Weiyang Liu al., 2017]
+- **COCO Loss:**       [[**code**]](https://github.com/sciencefans/coco_loss)
+
+  [Rethinking Feature Discrimination and Polymerization for Large-scale Recognition](https://arxiv.org/pdf/1710.00870.pdf) [Yu Liu al., 2017]
+
+![A_L_COCO](./img/A_NORM_COCO.png)
+
 - **AM-Softmax**   [[**code**]](https://github.com/happynear/AMSoftmax)
   [AM : Additive Margin Softmax for Face Verification](https://arxiv.org/pdf/1801.05599.pdf) [Feng Wang al., 2018]
-
 - **CosFace:**
 
 ​    [CosFace: Large Margin Cosine Loss for Deep Face Recognition(Tencent AI Lab)](https://arxiv.org/pdf/1801.09414.pdf) [Hao Wang al., 2018]
@@ -49,13 +57,12 @@
 
 ​    [ArcFace: Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/pdf/1801.07698.pdf) [Jiankang Deng al., 2018]
 
+![cos loss](./img/cos loss.png)
+
 - **CCL：**
 
   [Face Recognition via Centralized Coordinate Learning](https://arxiv.org/pdf/1801.05678.pdf) [Xianbiao al., 2018]
 
-- **COCO Loss:**       [[**code**]](https://github.com/sciencefans/coco_loss)
-
-  [Rethinking Feature Discrimination and Polymerization for Large-scale Recognition](https://arxiv.org/pdf/1710.00870.pdf) [Yu Liu al., 2017]
 
 #### 3.  3D face recognition
 
@@ -140,17 +147,20 @@
 
 ## 🔧 References:
 
-1. <https://github.com/RiweiChen/DeepFace/tree/master/FaceDataset>
-2. <https://www.zhihu.com/question/33505655?sort=created>
-3. https://github.com/betars/Face-Resources
-4. https://zhuanlan.zhihu.com/p/33288325
-5. https://github.com/L706077/DNN-Face-Recognition-Papers
-6. https://www.zhihu.com/question/67919300
+[1] <https://github.com/RiweiChen/DeepFace/tree/master/FaceDataset>
+
+[2] <https://www.zhihu.com/question/33505655?sort=created>
+
+[3] https://github.com/betars/Face-Resources
+
+[4] https://zhuanlan.zhihu.com/p/33288325
+
+[5] https://github.com/L706077/DNN-Face-Recognition-Papers
+
+[6] https://www.zhihu.com/question/67919300
 
 ## 🕳 ToDo
 
 - [ ] Software
-- [ ] Face Recognition algorithm classification and add coco loss
 - [ ] add video、few sample and Disguised face recognition algorithm
-- [ ] add face recognition releated mothed image
 
