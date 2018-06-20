@@ -1,7 +1,7 @@
 # awesome-face [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/polarisZhao/awesome-face)
 😎  face releated algorithm, datasets and papers  😋
 
-## 🎉 Paper / Algorithm
+## 📝 Paper / Algorithm
 
 ### 📌 Face Recognition 
 
@@ -94,7 +94,7 @@
 
 - [Exploring Disentangled Feature Representation Beyond Face Identification](https://arxiv.org/abs/1804.03487v1)[Yu Liu al., 2018] 
 
-## 📦  Datasets
+## 📚 Datasets
 
 ### 📌 Face Recognition
 
@@ -145,7 +145,49 @@
 | **ND-2006**                | 422 subjects and 9443 faces 3D Face Recognition              | [Download](https://sites.google.com/a/nd.edu/public-cvrl/data-sets) |
 | **FRGC V2.0**              | 466 subjects and 4007 of 3D Face, Visible Face Images        | [Download](https://sites.google.com/a/nd.edu/public-cvrl/data-sets) |
 
-## 🔧 References:
+## 🏠 Conference & workshop & Transactions
+
+### 📌 Conference：
+
+####computer vision：
+
+**ICCV**: [IEEE International Conference on Computer Vision](http://iccv2019.thecvf.com)
+
+**CVPR**: [IEEE Conference on Computer Vision and Pattern Recognition](http://cvpr2018.thecvf.com/)
+
+**ECCV**: [European Conference on Computer Vision](https://eccv2018.org)
+
+**FG**: [IEEE International Conference on Automatic Face and Gesture Recognition](http://dblp.uni-trier.de/db/conf/fgr/)
+
+**BMVC:** [The British Machine Vision Conference](http://www.bmva.org/bmvc/?id=bmvc)
+
+#### biometrics：
+
+**IJCB[ICB+BTAS]**:International Joint Conference on Biometrics
+
+**ICB**: [International Conference on Biometrics](http://icb2018.org)
+
+**BTAS**: [IEEE International Conference on Biometrics: Theory, Applications and Systems](<https://www.isi.edu/events/btas2018/home>)
+
+### 📌 workshop：
+
+**AMFG**: IEEE workshop on Analysis and Modeling of Faces and Gestures
+
+**CVPR Workshop on Biometrics**
+
+### 📌 Transactions ：
+
+**TPAMI:** [IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)
+
+**IJCV:** [International Journal of Computer Vision](https://link.springer.com/journal/11263) 
+
+**TIP:** [IEEE Transactions on Image Processing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83)
+
+**TIFS:** [IEEE Transactions on Information Forensics and Security](IEEE Transactions on Information Forensics and Security)
+
+**PR:** [Pattern Recognition](https://www.journals.elsevier.com/pattern-recognition/)
+
+## 🏷 References:
 
 [1] <https://github.com/RiweiChen/DeepFace/tree/master/FaceDataset>
 
@@ -158,6 +200,10 @@
 [5] https://github.com/L706077/DNN-Face-Recognition-Papers
 
 [6] https://www.zhihu.com/question/67919300
+
+[7] https://jackietseng.github.io/conference_call_for_paper/2018-2019-conferences.html
+
+[8]http://history.ccf.org.cn/sites/ccf/biaodan.jsp?contentId=2903940690839
 
 ## 🕳 ToDo
 
