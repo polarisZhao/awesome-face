@@ -86,7 +86,7 @@
 
    [Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks](https://kpzhang93.github.io/MTCNN_face_detection_alignment/)[K. Zhang al., 2016]
 
-- **Face R-CNN ** 
+- **Face R-CNN** 
 
    [Face R-CNN](https://arxiv.org/pdf/1706.01061.pdf)[H. Wang, Z. Li, X. Ji, Y. Wang. et.al 2017]
 
