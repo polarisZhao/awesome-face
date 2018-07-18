@@ -86,7 +86,15 @@
 
    [Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks](https://kpzhang93.github.io/MTCNN_face_detection_alignment/)[K. Zhang al., 2016]
 
-- **Tiny Face** [**[code]**](https://github.com/peiyunh/tiny)
+- **Face R-CNN ** 
+
+   [Face R-CNN](https://arxiv.org/pdf/1706.01061.pdf)[H. Wang, Z. Li, X. Ji, Y. Wang. et.al 2017]
+
+- **SSH**  [**[code]**](https://github.com/mahyarnajibi/SSH)
+
+   [SSH: Single Stage Headless Face Detector](https://arxiv.org/pdf/1708.03979.pdf)[M. Najibi, al., 2017 ]
+
+- **HR**  [**[code]**](https://github.com/peiyunh/tiny)
    [Finding Tiny Faces](https://arxiv.org/abs/1612.04402) [Peiyun Hu,  Deva Ramanan, 2017]
 
 - **PyramidBox** 
@@ -250,6 +258,10 @@
 [7] https://jackietseng.github.io/conference_call_for_paper/2018-2019-conferences.html
 
 [8]http://history.ccf.org.cn/sites/ccf/biaodan.jsp?contentId=2903940690839
+
+[9]http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/WiderFace_Results.html
+
+
 
 
 
