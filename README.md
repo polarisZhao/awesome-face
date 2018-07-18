@@ -86,6 +86,13 @@
 
    [Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks](https://kpzhang93.github.io/MTCNN_face_detection_alignment/)[K. Zhang al., 2016]
 
+- **Tiny Face** [**[code]**](https://github.com/peiyunh/tiny)
+   [Finding Tiny Faces](https://arxiv.org/abs/1612.04402) [Peiyun Hu,  Deva Ramanan, 2017]
+
+- **PyramidBox** 
+
+   [PyramidBox: A Context-assisted Single Shot Face Detector](https://arxiv.org/abs/1803.07737?context=cs)[Xu Tang al., 2018]
+
 ### 📌 Face Alignment
 
 - [Look at Boundary: A Boundary-Aware Face Alignment Algorithm](https://arxiv.org/abs/1805.10483)[Wayne Wu al., 2018]
