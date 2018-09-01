@@ -95,6 +95,7 @@
    [SSH: Single Stage Headless Face Detector](https://arxiv.org/pdf/1708.03979.pdf)[M. Najibi, al., 2017 ]
 
 - **HR**  [**[code]**](https://github.com/peiyunh/tiny)
+
    [Finding Tiny Faces](https://arxiv.org/abs/1612.04402) [Peiyun Hu,  Deva Ramanan, 2017]
 
 - **PyramidBox** 
@@ -126,6 +127,7 @@
 | **Trillion Pairs**🏅        | Train: **MS-Celeb-1M-v1c** &  **Asian-Celeb** Test: **ELFW&DELFW** | [Download](http://trillionpairs.deepglint.com/overview)      | 2018         |
 | **FaceScrub**              | It comprises a total of **106,863** face images of male and female **530** celebrities, with about **200 images per person**. | [Download](http://vintage.winklerbros.net/facescrub.html)    | 2014         |
 | **Mut1ny**🏅                | head/face segmentation dataset contains over 17.3k labeled images | [Download](http://www.mut1ny.com/face-headsegmentation-dataset) | 2018         |
+| **IMDB-Face**              | The dataset contains about 1.7 million faces, 59k identities, which is manually cleaned from 2.0 million raw images. | [Download](https://github.com/fwang91/IMDb-Face)             | 2018         |
 
 #### video face recognition 
 
