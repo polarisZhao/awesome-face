@@ -98,6 +98,10 @@
 
    [Finding Tiny Faces](https://arxiv.org/abs/1612.04402) [Peiyun Hu,  Deva Ramanan, 2017]
 
+- **FaceBoxes**  [code](https://github.com/sfzhang15/FaceBoxes)**
+
+   [Faceboxes: A CPU Real-time Face Detector with High Accuracy](https://arxiv.org/pdf/1708.05234.pdf)[Zhang, Shifeng al., 2017]
+
 - **PyramidBox** 
 
    [PyramidBox: A Context-assisted Single Shot Face Detector](https://arxiv.org/abs/1803.07737?context=cs)[Xu Tang al., 2018]
@@ -105,10 +109,15 @@
 ### 📌 Face Alignment
 
 - [Look at Boundary: A Boundary-Aware Face Alignment Algorithm](https://arxiv.org/abs/1805.10483)[Wayne Wu al., 2018]
+- [PFLD: A Practical Facial Landmark Detector](https://arxiv.org/pdf/1902.10859.pdf)[Xiaojie Guo al., 2019]
 
 ### 📌Others
 
 - [Exploring Disentangled Feature Representation Beyond Face Identification](https://arxiv.org/abs/1804.03487v1)[Yu Liu al., 2018] 
+
+##  Open source lib
+
+#### 1. face.evoLVe.   [github](https://github.com/ZhaoJ9014/face.evoLVe.PyTorch)
 
 ## 📚 Datasets
 
