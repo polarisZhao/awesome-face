@@ -118,7 +118,7 @@
 ##  Open source lib
 
 #### 1. face.evoLVe.   [github](https://github.com/ZhaoJ9014/face.evoLVe.PyTorch)
-
+#### 2. [face_recognition.pytorch](https://github.com/grib0ed0v/face_recognition.pytorch)
 ## 📚 Datasets
 
 ### 📌 Face Recognition
