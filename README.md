@@ -143,8 +143,9 @@
 
 #### 1. face.evoLVe.   [github](https://github.com/ZhaoJ9014/face.evoLVe.PyTorch)
 
-#### 2. libfaccedetection [github](https://github.com/ShiqiYu/libfacedetection)
+#### 2. [face_recognition.pytorch](https://github.com/grib0ed0v/face_recognition.pytorch)
 
+#### 2. libfaccedetection [github](https://github.com/ShiqiYu/libfacedetection)
 ## 📚 Datasets
 
 ### 📌 Face Recognition
