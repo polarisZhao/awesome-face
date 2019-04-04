@@ -7,7 +7,7 @@
 
 ![2d_face_reg](./img/face_reg.png)
 
-**[1] DeepID1 **  [**[paper]**](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Sun_Deep_Learning_Face_2014_CVPR_paper.pdf) 
+**[1] DeepID1**  [**[paper]**](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Sun_Deep_Learning_Face_2014_CVPR_paper.pdf) 
 
 Deep Learning Face Representation from Predicting 10,000 Classes
 
@@ -35,7 +35,7 @@ A Discriminative Feature Learning Approach for Deep Face Recognition
 
 Marginal loss for deep face recognition
 
-**[8] Range Loss  **[**[paper]**](https://arxiv.org/abs/1611.08976) 
+**[8] Range Loss**[**[paper]**](https://arxiv.org/abs/1611.08976) 
 
 Range Loss for Deep Face Recognition with Long-tail
 
@@ -95,7 +95,7 @@ Detecting Faces Using Inside Cascaded Contextual CNN
 
 Face R-CNN
 
-**[5] Deep-IR   **[**[Paper]**](https://arxiv.org/abs/1701.08289)
+**[5] Deep-IR**[**[Paper]**](https://arxiv.org/abs/1701.08289)
 
 Face Detection using Deep Learning: An Improved Faster RCNN Approach
 
