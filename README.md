@@ -1,156 +1,169 @@
 # awesome-face [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/polarisZhao/awesome-face)
-😎  face releated algorithm, datasets and papers  😋
+🔥  face releated algorithm, datasets and papers  🤔
 
 ## 📝 Paper / Algorithm
 
-### 📌 Face Recognition 
+#### 2D- Face Recognition 
 
-#### 1. metric learning：
+![2d_face_reg](./img/face_reg.png)
 
-- **Deep ID Series**
+**[1] DeepID1 **  [**[paper]**](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Sun_Deep_Learning_Face_2014_CVPR_paper.pdf) 
 
-    **DeepID1:** [Deep Learning Face Representation from Predicting 10,000 Classes](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Sun_Deep_Learning_Face_2014_CVPR_paper.pdf) [Yi Sun et al., 2014]
+Deep Learning Face Representation from Predicting 10,000 Classes
 
-    **DeepID2:** [Deep Learning Face Representation by Joint Identification-Verification](https://arxiv.org/abs/1406.4773) [Yi Sun et al., 2014]
+**[2] DeepID2**  [**[paper]**](https://arxiv.org/abs/1406.4773) 
 
-    **DeepID2+:** [Deeply learned face representations are sparse, selective, and robust](https://arxiv.org/abs/1412.1265) [Yi Sun et al., 2014]
+Deep Learning Face Representation by Joint Identification-Verification
 
-    **DeepIDv3:** [DeepID3: Face Recognition with Very Deep Neural Networks](https://arxiv.org/abs/1502.00873) [Yi Sun et al., 2015]
+**[3] DeepID2+**  [**[paper]**](https://arxiv.org/abs/1412.1265)
 
-- **FaceNet:**     [[**third-party implemention**]](https://github.com/davidsandberg/facenet)
+Deeply learned face representations are sparse, selective, and robust
 
-    [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/abs/1503.03832) [Florian Schroff et al., 2015]
+**[4] DeepIDv3**  [**[paper]**](https://arxiv.org/abs/1502.00873) 
 
-- **Deep Face:**
+DeepID3: Face Recognition with Very Deep Neural Networks
 
-    [Deep Face Recognition](https://www.robots.ox.ac.uk/~vgg/publications/2015/Parkhi15/parkhi15.pdf) [Omkar M. Parkhi et al., 2015]
+**[5] Deep Face** [**[paper]**](https://www.robots.ox.ac.uk/~vgg/publications/2015/Parkhi15/parkhi15.pdf) 
 
-#### 2. margin based classification
+Deep Face Recognition
 
-- **Center Loss：**   [[**code**]](https://github.com/ydwen/caffe-face)
-  [A Discriminative Feature Learning Approach for Deep Face Recognition](http://ydwen.github.io/papers/WenECCV16.pdf) [Yandong Wen et al., 2016]
-- **Large-Margin Softmax Loss**   [[**code**]](https://github.com/wy1iu/LargeMargin_Softmax_Loss)
-  [Large-Margin Softmax Loss for Convolutional Neural Networks(L-Softmax loss)](https://arxiv.org/pdf/1612.02295.pdf) [Weiyang Liu al., 2017]
+**[6] Center Loss** [**[paper]**](http://ydwen.github.io/papers/WenECCV16.pdf)    [**[code]**](https://github.com/ydwen/caffe-face)
 
-![center_norm](./img/softmax_center_l.png)
+A Discriminative Feature Learning Approach for Deep Face Recognition
 
-- **SphereFace：**  **A-Softmax**    [[**code**]](https://github.com/wy1iu/sphereface)
-  [SphereFace: Deep Hypersphere Embedding for Face Recognition](https://arxiv.org/abs/1704.08063) [Weiyang Liu al., 2017]
+**[7]Marginal loss** [**[paper]**](https://www.computer.org/csdl/proceedings-article/cvprw/2017/0733c006/12OmNzayNCT)
 
-- **NormFace**     [[**code**]](https://github.com/happynear/NormFace)
+Marginal loss for deep face recognition
 
-  [NormFace: L2 Hypersphere Embedding for Face Verification](https://arxiv.org/pdf/1704.06369.pdf) [Feng Wang al., 2017]
+**[8] Range Loss  **[**[paper]**](https://arxiv.org/abs/1611.08976) 
 
-- **COCO Loss:**       [[**code**]](https://github.com/sciencefans/coco_loss)
+Range Loss for Deep Face Recognition with Long-tail
 
-  [Rethinking Feature Discrimination and Polymerization for Large-scale Recognition](https://arxiv.org/pdf/1710.00870.pdf) [Yu Liu al., 2017]
+**[9]Contrastive Loss** [**[paper]**](<https://arxiv.org/abs/1406.4773>)
 
-![A_L_COCO](./img/A_NORM_COCO.png)
+Deep learning face representation by joint identification-verification
 
-- **AM-Softmax**   [[**code**]](https://github.com/happynear/AMSoftmax)
-  [AM : Additive Margin Softmax for Face Verification](https://arxiv.org/pdf/1801.05599.pdf) [Feng Wang al., 2018]
-- **CosFace:**
+**[10] FaceNet**   [**[paper]**](https://arxiv.org/abs/1503.03832)   [[**third-party implemention**]](https://github.com/davidsandberg/facenet)
 
-    [CosFace: Large Margin Cosine Loss for Deep Face Recognition(Tencent AI Lab)](https://arxiv.org/pdf/1801.09414.pdf) [Hao Wang al., 2018]
+FaceNet: A Unified Embedding for Face Recognition and Clustering
 
-- **ArcFace:**   [**[code]**](https://github.com/deepinsight/insightface )
+**[11] NormFace**  [**[paper]**](https://arxiv.org/pdf/1704.06369.pdf)    [**[code]**](https://github.com/happynear/NormFace)
 
-    [ArcFace: Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/pdf/1801.07698.pdf) [Jiankang Deng al., 2018]
+NormFace: L2 Hypersphere Embedding for Face Verification
+
+**[12] COCO Loss:**    [**[paper]**](https://arxiv.org/pdf/1710.00870.pdf)   [[**code**]](https://github.com/sciencefans/coco_loss)
+
+Rethinking Feature Discrimination and Polymerization for Large-scale Recognition
+
+**[13] Large-Margin Softmax Loss**  [**[paper]**](https://arxiv.org/pdf/1612.02295.pdf)  [[**code**]](https://github.com/wy1iu/LargeMargin_Softmax_Loss)
+
+Large-Margin Softmax Loss for Convolutional Neural Networks(L-Softmax loss)
+
+**[14]SphereFace：**  **A-Softmax**   [**[paper]**](https://arxiv.org/abs/1704.08063)  [[**code**]](https://github.com/wy1iu/sphereface)
+
+SphereFace: Deep Hypersphere Embedding for Face Recognition
+
+**[15]AM-Softmax/cosFace**     [**[paper AM-Softmax]**](https://arxiv.org/pdf/1801.05599.pdf)       [**[paper cosFace]**](https://arxiv.org/pdf/1801.09414.pdf)        [[**AM-softmax code**]](https://github.com/happynear/AMSoftmax)
+
+AM : Additive Margin Softmax for Face Verification
+
+CosFace: Large Margin Cosine Loss for Deep Face Recognition(Tencent AI Lab)
+
+**[16] ArcFace:**  [**[paper]**](https://arxiv.org/pdf/1801.07698.pdf)  [**[code]**](https://github.com/deepinsight/insightface )
+
+ArcFace: Additive Angular Margin Loss for Deep Face Recognition
 
 ![cos_loss](./img/cos_loss.png)
 
-- **CCL：**
+#### Face Detection
 
-  [Face Recognition via Centralized Coordinate Learning](https://arxiv.org/pdf/1801.05678.pdf) [Xianbiao al., 2018]
+![](./img/face_detection.png)
 
+**[1] Cascade CNN**  [**[paper]**](https://ieeexplore.ieee.org/document/7299170/)   [**[code]**](https://github.com/anson0910/CNN_face_detection)    
 
-#### 3.  3D face recognition
+A Convolutional Neural Network Cascade for Face Detection
 
-- [Deep 3D Face Identification ](https://arxiv.org/abs/1703.10714)[Donghyun Kim al., 2017]
+**[2] MTCNN**   [**[Paper]**](https://kpzhang93.github.io/MTCNN_face_detection_alignment/)    [**[code]**](https://github.com/kpzhang93/MTCNN_face_detection_alignment)  
 
-- [Learning from Millions of 3D Scans for Large-scale 3D Face Recognition](https://arxiv.org/abs/1711.05942)[Syed Zulqarnain al., 2018] 
+Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks
 
-#### 4. others
+**[3] ICC - CNN**  [**[paper]**](https://ieeexplore.ieee.org/document/8237606)
 
-- [Beyond triplet loss: a deep quadruplet network for person re-identification](https://arxiv.org/pdf/1704.01719.pdf)[Weihua Chen al., 2017]
-- [Range Loss for Deep Face Recognition with Long-tail](https://arxiv.org/abs/1611.08976) [Xiao Zhang al., 2016]
-- [Feature Incay for Representation Regularization](https://arxiv.org/abs/1705.10284)[Yuhui Yuan al., 2017]
+Detecting Faces Using Inside Cascaded Contextual CNN
 
-### 📌 Face Detection
+**[4] Face R-CNN**  [**[Paper]**](https://arxiv.org/pdf/1706.01061.pdf)
 
-#### 1. Cascade CNN series
+Face R-CNN
 
-- **Cascade**   [**[code]**](https://github.com/anson0910/CNN_face_detection)
+**[5] Deep-IR   **[**[Paper]**](https://arxiv.org/abs/1701.08289)
 
-  [A Convolutional Neural Network Cascade for Face Detection](https://ieeexplore.ieee.org/document/7299170/)[Haoxiang Li al., 2015]
+Face Detection using Deep Learning: An Improved Faster RCNN Approach
 
-- **MTCNN**    [**[code]**](https://github.com/kpzhang93/MTCNN_face_detection_alignment)
+**[6] SSH**     [**[paper]**](https://arxiv.org/pdf/1708.03979.pdf)    [**[code]**](https://github.com/mahyarnajibi/SSH)
 
-   [Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks](https://kpzhang93.github.io/MTCNN_face_detection_alignment/)[K. Zhang al., 2016]
+SSH: Single Stage Headless Face Detector
 
-- ICC - CNN
+**[7] S3FD**   [**[paper]**](https://arxiv.org/abs/1708.05237)
 
-#### 2. R-CNN or R-FCN Series
+Single Shot Scale-invariant Face Detector
 
-- **Face R-CNN** 
+**[8] FaceBoxes** [**[paper]**](https://arxiv.org/pdf/1708.05234.pdf)     [**[code]**](https://github.com/sfzhang15/FaceBoxes)
 
-​      [Face R-CNN](https://arxiv.org/pdf/1706.01061.pdf)[H. Wang, Z. Li, X. Ji, Y. Wang. et.al 2017]
+Faceboxes: A CPU Real-time Face Detector with High Accuracy
 
-- **CMS-RCNN**
+**[9] Scaleface**     [**[paper]**](http://cn.arxiv.org/abs/1706.02863)
 
-  [CMS-RCNN: Contextual Multi-Scale Region-based CNN for Unconstrained Face Detection](https://arxiv.org/abs/1606.05413)[Chenchen Zhu et.al 2016]
+Face Detection through Scale-Friendly Deep Convolutional Networks
 
-- **Deep-IR**
+**[10] HR**  [**[paper]**](https://arxiv.org/abs/1612.04402)  [**[code]**](https://github.com/peiyunh/tiny)
 
-  [Face Detection using Deep Learning: An Improved Faster RCNN Approach](https://arxiv.org/abs/1701.08289)[Xudong SUN et.al 2017]
+Finding Tiny Faces
 
-#### 3. SSD Series
+**[11] FAN**   [**[paper]**](https://arxiv.org/abs/1712.00721)
 
-- **SSH**  [**[code]**](https://github.com/mahyarnajibi/SSH)
+Feature Agglomeration Networks for Single Stage Face Detection.
 
-​      [SSH: Single Stage Headless Face Detector](https://arxiv.org/pdf/1708.03979.pdf)[M. Najibi, al., 2017 ]
+**[12] PyramidBox**    [**[paper]**](https://arxiv.org/abs/1803.07737?context=cs) [**[code]**](https://github.com/PaddlePaddle/models/blob/develop/fluid/PaddleCV/face_detection/README_cn.md)
 
-- **s3fd**
+PyramidBox: A Context-assisted Single Shot Face Detector
 
-​       [Single Shot Scale-invariant Face Detector](https://arxiv.org/abs/1708.05237)[Zhang, Shifeng al., 2017]
+**[13] SRN**     [**[paper]**](https://arxiv.org/abs/1809.02693) 
 
-- **FaceBoxes**  **[code](https://github.com/sfzhang15/FaceBoxes)**
+Selective Refinement Network for High Performance Face Detection.
 
-  [Faceboxes: A CPU Real-time Face Detector with High Accuracy](https://arxiv.org/pdf/1708.05234.pdf)[Zhang, Shifeng al., 2017]
+**[14] DSFD**  [**[paper]**](https://arxiv.org/abs/1810.10220)
 
-- **Scaleface**
+DSFD: Dual Shot Face Detector
 
-  [Face Detection through Scale-Friendly Deep Convolutional Networks](http://cn.arxiv.org/abs/1706.02863)[Shuo Yang al., 2017]
+**[15] VIM FD** [**[paper]**](https://arxiv.org/abs/1901.02350)
 
-- **HR**  [**[code]**](https://github.com/peiyunh/tiny)
+Robust and High Performance Face Detector
 
-   [Finding Tiny Faces](https://arxiv.org/abs/1612.04402) [Peiyun Hu,  Deva Ramanan, 2017]
+**[16] ISRN**  [**[paper]**](https://arxiv.org/abs/1901.06651)
 
-- **PyramidBox** 
+Improved Selective Refinement Network for Face Detection
 
-   [PyramidBox: A Context-assisted Single Shot Face Detector](https://arxiv.org/abs/1803.07737?context=cs)[Xu Tang al., 2018]
-
-### 📌 Face Alignment
+#### Face Alignment
 
 - [Look at Boundary: A Boundary-Aware Face Alignment Algorithm](https://arxiv.org/abs/1805.10483)[Wayne Wu al., 2018]
 - [PFLD: A Practical Facial Landmark Detector](https://arxiv.org/pdf/1902.10859.pdf)[Xiaojie Guo al., 2019]
 
-### 📌Others
+##  ⚙ Open source lib
 
-- [Exploring Disentangled Feature Representation Beyond Face Identification](https://arxiv.org/abs/1804.03487v1)[Yu Liu al., 2018] 
+#### face recognition
 
-##  Open source lib
+- [face.evoLVe.](https://github.com/ZhaoJ9014/face.evoLVe.PyTorch)
 
-#### 1. face.evoLVe.   [github](https://github.com/ZhaoJ9014/face.evoLVe.PyTorch)
+- [face_recognition.pytorch](https://github.com/grib0ed0v/face_recognition.pytorch)
+-  [insightface](https://github.com/deepinsight/insightface )
 
-#### 2. [face_recognition.pytorch](https://github.com/grib0ed0v/face_recognition.pytorch)
+#### face detection
 
-#### 2. libfaccedetection [github](https://github.com/ShiqiYu/libfacedetection)
-## 📚 Datasets
+- [libfaccedetection](https://github.com/ShiqiYu/libfacedetection)
 
-### 📌 Face Recognition
+## 📦 Datasets
 
-#### 2D face recognition
+#### 2D Face Recognition
 
 | Datasets                   | Description                                                  | Links                                                        | Publish Time |
 | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ |
@@ -207,16 +220,16 @@
 | **CPLFW**    | we construct a Cross-Pose LFW (CPLFW) which deliberately searches and selects **3,000 positive face pairs** with **pose difference** to add pose variation to intra-class variance. | [Download](http://www.whdeng.cn/cplfw/index.html)            | 2017         |
 | **CALFW**    | Thereby we construct a Cross-Age LFW (CALFW) which deliberately searches and selects **3,000 positive face pairs** with **age gaps** to add aging process intra-class variance. | [Download](http://www.whdeng.cn/calfw/index.html)            | 2017         |
 
-### 📌Face Detection
+#### Face Detection
 
-| Datasets       | Description                                                  | Links                                                       | Publish Time |
-| -------------- | ------------------------------------------------------------ | ----------------------------------------------------------- | ------------ |
-| **FDDB**🏅      | **5171** faces in a set of **2845** images                   | [Download](http://vis-www.cs.umass.edu/fddb/index.html)     | 2010         |
-| **Wider-face** | **32,203** images and label **393,703** faces with a high degree of variability in scale, pose and occlusion, organized based on **61** event classes | [Download](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/) | 2015         |
-| **AFW**        | AFW dataset is built using Flickr images. It has **205** images with **473** labeled faces. For each face, annotations include a rectangular **bounding box**, **6 landmarks** and the **pose angles**. | [Download](http://www.ics.uci.edu/~xzhu/face/)              | 2013         |
-| **MALF**       | MALF is the first face detection dataset that supports fine-gained evaluation. MALF consists of **5,250** images and **11,931** faces. | [Download](http://www.cbsr.ia.ac.cn/faceevaluation/)        | 2015         |
+| Datasets         | Description                                                  | Links                                                       | Publish Time |
+| ---------------- | ------------------------------------------------------------ | ----------------------------------------------------------- | ------------ |
+| **FDDB**🏅        | **5171** faces in a set of **2845** images                   | [Download](http://vis-www.cs.umass.edu/fddb/index.html)     | 2010         |
+| **Wider-face** 🏅 | **32,203** images and label **393,703** faces with a high degree of variability in scale, pose and occlusion, organized based on **61** event classes | [Download](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/) | 2015         |
+| **AFW**          | AFW dataset is built using Flickr images. It has **205** images with **473** labeled faces. For each face, annotations include a rectangular **bounding box**, **6 landmarks** and the **pose angles**. | [Download](http://www.ics.uci.edu/~xzhu/face/)              | 2013         |
+| **MALF**         | MALF is the first face detection dataset that supports fine-gained evaluation. MALF consists of **5,250** images and **11,931** faces. | [Download](http://www.cbsr.ia.ac.cn/faceevaluation/)        | 2015         |
 
-### 📌 Face Attributes 
+#### Face Attributes 
 
 | Datasets                             | Description                                                  | Links                                                        | Key features                                 | Publish Time |
 | ------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------------------- | ------------ |
@@ -228,7 +241,7 @@
 | **EmotioNet**                        | The EmotioNet database includes**950,000 images** with **annotated AUs**.  A **subset** of the images in the EmotioNet database correspond to **basic and compound emotions.** | [Download](http://cbcsl.ece.ohio-state.edu/EmotionNetChallenge/index.html#overview) | **AU and Emotion**                           | 2017         |
 | **RAF( Real-world Affective Faces)** | **29672** number of **real-world images**,  including **7** classes of basic emotions and **12** classes of compound emotions,  **5 accurate landmark locations**,  **37 automatic landmark locations**, **race, age range** and  **gender** **attributes** annotations per image | [Download](  <http://www.whdeng.cn/RAF/model1.html>)         | **Emotions、landmark、race、age and gender** | 2017         |
 
-### 📌 Others：
+#### Others
 
 | Datasets           | Description                                                  | Links                                                        | Publish Time |
 | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ |
@@ -238,11 +251,9 @@
 | **3D Mask Attack** | **76500** frames of **17** persons using Kinect RGBD with eye positions (Sebastien Marcel). | [Download](https://www.idiap.ch/dataset/3dmad)               | 2013         |
 | **WebCaricature**  | **6042** **caricatures** and **5974 photographs** from **252 persons** collected from the web | [Download](https://cs.nju.edu.cn/rl/WebCaricature.htm)       | 2018         |
 
-## 🏠 Conference & workshop & Transactions
+## 🏠 Research home(conf & workshop & trans)
 
-### 📌 Conference：
-
-#### computer vision：
+![](./img/research_home.png)
 
 **ICCV**: [IEEE International Conference on Computer Vision](http://iccv2019.thecvf.com)
 
@@ -254,21 +265,15 @@
 
 **BMVC:** [The British Machine Vision Conference](http://www.bmva.org/bmvc/?id=bmvc)
 
-#### biometrics：
-
 **IJCB[ICB+BTAS]**:International Joint Conference on Biometrics
 
-**ICB**: [International Conference on Biometrics](http://icb2018.org)
+- **ICB**: [International Conference on Biometrics](http://icb2018.org)
 
-**BTAS**: [IEEE International Conference on Biometrics: Theory, Applications and Systems](<https://www.isi.edu/events/btas2018/home>)
-
-### 📌 workshop：
+- **BTAS**: [IEEE International Conference on Biometrics: Theory, Applications and Systems](<https://www.isi.edu/events/btas2018/home>)
 
 **AMFG**: IEEE workshop on Analysis and Modeling of Faces and Gestures
 
 **CVPR Workshop on Biometrics**
-
-### 📌 Transactions ：
 
 **TPAMI:** [IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)
 
