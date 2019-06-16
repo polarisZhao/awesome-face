@@ -143,10 +143,43 @@ Robust and High Performance Face Detector
 
 Improved Selective Refinement Network for Face Detection
 
+**[17] PyramidBox++**  [**[Paper]**](https://arxiv.org/abs/1904.00386)
+
+PyramidBox++: High Performance Detector for Finding Tiny Face
+
+**[18] RetinaFace**    [**[paper]**](https://arxiv.org/pdf/1905.00641.pdf)  [**[code]**](https://github.com/deepinsight/insightface/tree/master/RetinaFace)
+
+RetinaFace: Single-stage Dense Face Localisation in the Wild
+
 #### Face Alignment
 
-- [Look at Boundary: A Boundary-Aware Face Alignment Algorithm](https://arxiv.org/abs/1805.10483)[Wayne Wu al., 2018]
-- [PFLD: A Practical Facial Landmark Detector](https://arxiv.org/pdf/1902.10859.pdf)[Xiaojie Guo al., 2019]
+**[1] PRNet**     [**[paper]**](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yao_Feng_Joint_3D_Face_ECCV_2018_paper.pdf)    [**[code]**](https://github.com/YadiraF/PRNet)  
+
+Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network
+
+**[2]LAB**   [Paper](https://arxiv.org/abs/1805.10483)    [**[code]**](https://github.com/wywu/LAB)
+
+Look at Boundary: A Boundary-Aware Face Alignment Algorithm
+
+**[3]PFLD**   [Paper](https://arxiv.org/pdf/1902.10859.pdf)    [**[demo code]**](https://sites.google.com/view/xjguo/fld)
+
+PFLD: A Practical Facial Landmark Detector
+
+**[4] 2D & 3D FAN**   [**[Paper]**](https://www.adrianbulat.com/downloads/FaceAlignment/FaceAlignment.pdf)    [**[code]**](https://github.com/1adrianb/face-alignment)
+
+How far are we from solving the 2D & 3D Face Alignment problem? (and a dataset of 230,000 3D facial landmarks)
+
+#### Face attack & Defends
+
+[1] A Dataset and Benchmark for Large-Scale Multi-Modal Face Anti-Spoofing
+
+[2] Deep Tree Learning for Zero-Shot Face Anti-Spoofing
+
+[3] Decorrelated Adversarial Learning for Age-Invariant Face Recognition
+
+[4] Multi-Adversarial Discriminative Deep Domain Generalization for Face Presentation Attack Detection
+
+[5] Efficient Decision-Based Black-Box Adversarial Attacks on Face Recognition
 
 ##  ⚙ Open source lib
 
