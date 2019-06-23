@@ -23,7 +23,7 @@ Deeply learned face representations are sparse, selective, and robust
 
 DeepID3: Face Recognition with Very Deep Neural Networks
 
-**[5] Deep Face** [**[paper]**](https://www.robots.ox.ac.uk/~vgg/publications/2015/Parkhi15/parkhi15.pdf) 
+**[5] Deep Face** [**[paper]**](https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf) 
 
 Deep Face Recognition
 
