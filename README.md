@@ -314,7 +314,7 @@ How far are we from solving the 2D & 3D Face Alignment problem? (and a dataset o
 
 ## 🏠 Research home(conf & workshop & trans)
 
-![](./img/research_home.png)
+![](./img/research_home.jpg)
 
 **ICCV**: [IEEE International Conference on Computer Vision](http://iccv2019.thecvf.com)
 
