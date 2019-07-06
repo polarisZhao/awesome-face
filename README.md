@@ -9,7 +9,7 @@
   - [Face Alignment](#face-alignment)
   - [Face attack &amp; Defends](#face-attack--defends)
 
-* [⚙ Open source lib](#-open-source-lib) 
+* [Open source lib](#-open-source-lib) 
   - [face recognition](#face-recognition)
   -  [face detection](#face-detection-1)
 
@@ -107,7 +107,7 @@ ArcFace: Additive Angular Margin Loss for Deep Face Recognition
 
 ![](./img/face_detection.jpg)
 
-**[1] Cascade CNN**  [**[paper]**](https://ieeexplore.ieee.org/document/7299170/)   [**[code]**](https://github.com/anson0910/CNN_face_detection)    
+**[1] Cascade CNN**  [**[paper]**](https://ieeexplore.ieee.org/document/7299170/) [**[code]**](https://github.com/anson0910/CNN_face_detection)    
 
 A Convolutional Neural Network Cascade for Face Detection
 
@@ -181,7 +181,7 @@ RetinaFace: Single-stage Dense Face Localisation in the Wild
 
 #### Face Alignment
 
-**[1] PRNet**     [**[paper]**](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yao_Feng_Joint_3D_Face_ECCV_2018_paper.pdf)    [**[code]**](https://github.com/YadiraF/PRNet)  
+**[1] PRNet**     [**[paper]**](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yao_Feng_Joint_3D_Face_ECCV_2018_paper.pdf)  [**[code]**](https://github.com/YadiraF/PRNet)  
 
 Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network
 
@@ -197,6 +197,12 @@ PFLD: A Practical Facial Landmark Detector
 
 How far are we from solving the 2D & 3D Face Alignment problem? (and a dataset of 230,000 3D facial landmarks)
 
+
+
+
+
+
+
 #### Face attack & Defends
 
 [1] A Dataset and Benchmark for Large-Scale Multi-Modal Face Anti-Spoofing
@@ -209,7 +215,7 @@ How far are we from solving the 2D & 3D Face Alignment problem? (and a dataset o
 
 [5] Efficient Decision-Based Black-Box Adversarial Attacks on Face Recognition
 
-##  ⚙ Open source lib
+##  ⚙️ Open source lib
 
 #### face recognition
 
@@ -239,7 +245,7 @@ How far are we from solving the 2D & 3D Face Alignment problem? (and a dataset o
 | **Mut1ny**🏅                | head/face segmentation dataset contains over 17.3k labeled images | [Download](http://www.mut1ny.com/face-headsegmentation-dataset) | 2018         |
 | **IMDB-Face**              | The dataset contains about 1.7 million faces, 59k identities, which is manually cleaned from 2.0 million raw images. | [Download](https://github.com/fwang91/IMDb-Face)             | 2018         |
 
-#### video face recognition 
+#### Video face recognition 
 
 | Datasets                    | Description                                                  | Links                                                        | Publish Time |
 | --------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ |
@@ -271,7 +277,7 @@ How far are we from solving the 2D & 3D Face Alignment problem? (and a dataset o
 | **Oulu-NPU**      |           55/3            | [Download](https://sites.google.com/site/oulunpudatabase/)   | 2017 | **2 Print, 6 Replay** | 2017         |
 | **Siw**           |           165/4           | [Download](http://cvlab.cse.msu.edu/spoof-in-the-wild-siw-face-anti-spoofing-database.html) | 2018 | **2 Print, 4 Replay** | 2018         |
 
-#### cross age and cross pose
+#### Cross age and cross pose
 
 | Datasets     | Description                                                  | Links                                                        | Publish Time |
 | ------------ | :----------------------------------------------------------- | ------------------------------------------------------------ | ------------ |
@@ -316,6 +322,10 @@ How far are we from solving the 2D & 3D Face Alignment problem? (and a dataset o
 
 ![](./img/research_home.jpg)
 
+
+
+###### Conference
+
 **ICCV**: [IEEE International Conference on Computer Vision](http://iccv2019.thecvf.com)
 
 **CVPR**: [IEEE Conference on Computer Vision and Pattern Recognition](http://cvpr2018.thecvf.com/)
@@ -334,7 +344,7 @@ How far are we from solving the 2D & 3D Face Alignment problem? (and a dataset o
 
 **AMFG**: IEEE workshop on Analysis and Modeling of Faces and Gestures
 
-**CVPR Workshop on Biometrics**
+###### Workshop on Biometrics
 
 **TPAMI:** [IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)
 
@@ -346,7 +356,7 @@ How far are we from solving the 2D & 3D Face Alignment problem? (and a dataset o
 
 **PR:** [Pattern Recognition](https://www.journals.elsevier.com/pattern-recognition/)
 
-## 🏷 References:
+## 🏷 References
 
 [1] <https://github.com/RiweiChen/DeepFace/tree/master/FaceDataset>
 
