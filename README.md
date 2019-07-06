@@ -1,5 +1,33 @@
 # awesome-face [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/polarisZhao/awesome-face)
-🔥  face releated algorithm, datasets and papers  🤔
+🔥  face releated algorithm, datasets and papers    
+
+<!--ts-->
+
+* [ Paper / Algorithm](#-paper--algorithm)
+  - [2D- Face Recognition](#2d--face-recognition)
+  - [Face Detection](#face-detection)
+  - [Face Alignment](#face-alignment)
+  - [Face attack &amp; Defends](#face-attack--defends)
+
+* [⚙ Open source lib](#-open-source-lib) 
+  - [face recognition](#face-recognition)
+  -  [face detection](#face-detection-1)
+
+* [Datasets](#-datasets)
+  - [2D Face Recognition](#2d-face-recognition) 
+  - [video face recognition](#video-face-recognition) 
+  - [3D face recognition](#3d-face-recognition)
+  - [Anti-spoofing](#anti-spoofing)
+  - [cross age and cross pose](#cross-age-and-cross-pose)
+  -  [Face Detection](#face-detection-2)
+  -  [Face Attributes](#face-attributes)
+  -  [Others](#others)
+
+* [ Research home(conf &amp; workshop &amp; trans)](#-research-homeconf--workshop--trans)
+
+* [ References:](#-references)
+
+<!--te-->
 
 ## 📝 Paper / Algorithm
 
