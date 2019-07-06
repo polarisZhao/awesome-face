@@ -33,7 +33,7 @@
 
 #### 2D- Face Recognition 
 
-![2d_face_reg](./img/face_reg.png)
+![2d_face_reg](./img/face_reg.jpg)
 
 **[1] DeepID1**  [**[paper]**](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Sun_Deep_Learning_Face_2014_CVPR_paper.pdf) 
 
@@ -101,11 +101,11 @@ CosFace: Large Margin Cosine Loss for Deep Face Recognition(Tencent AI Lab)
 
 ArcFace: Additive Angular Margin Loss for Deep Face Recognition
 
-![cos_loss](./img/cos_loss.png)
+![cos_loss](./img/cos_loss.jpg)
 
 #### Face Detection
 
-![](./img/face_detection.png)
+![](./img/face_detection.jpg)
 
 **[1] Cascade CNN**  [**[paper]**](https://ieeexplore.ieee.org/document/7299170/)   [**[code]**](https://github.com/anson0910/CNN_face_detection)    
 
