@@ -197,11 +197,27 @@ PFLD: A Practical Facial Landmark Detector
 
 How far are we from solving the 2D & 3D Face Alignment problem? (and a dataset of 230,000 3D facial landmarks)
 
+#### 3D face reconstruction
 
+**[1] 3DMM** 
 
+A Morphable Model For The Synthesis Of 3D Faces
 
+**[2] 3DDFA**      [**[paper]**](https://arxiv.org/abs/1804.01005)     [**[github]**](https://github.com/cleardusk/3DDFA)
 
+Face Alignment in Full Pose Range: A 3D Total Solution.
 
+**[3] VRN**       [**[index]**](http://aaronsplace.co.uk/papers/jackson2017recon/index.html)    [**[code]**](https://github.com/AaronJackson/vrn)
+
+Large Pose 3D Face Reconstruction from a Single Image via Direct Volumetric CNN Regression(3D Face Reconstruction from a Single Image)
+
+**[4] PRNet**   [**[paper]**](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yao_Feng_Joint_3D_Face_ECCV_2018_paper.pdf)     [**[github]**](https://github.com/YadiraF/PRNet)
+
+Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network
+
+**[5] 2DASL**      [**[paper]**](https://arxiv.org/abs/1903.09359)   [**[github]**](https://github.com/XgTu/2DASL)
+
+Joint 3D Face Reconstruction and Dense Face Alignment from A Single Image with 2D-Assisted Self-Supervised Learning 
 
 #### Face attack & Defends
 
