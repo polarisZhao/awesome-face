@@ -8,7 +8,7 @@
   - [Survey](#Survey)
   
   - [2D- Face Recognition](#2d--face-recognition)
-- [Face Detection](#face-detection)
+  - [Face Detection](#face-detection)
   - [Face Alignment](#face-alignment)
   - [3D face reconstruction](#3D face reconstruction)
   - [Face attack &amp; Defends](#face-attack--defends)
