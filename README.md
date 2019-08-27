@@ -1,19 +1,24 @@
 # awesome-face [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/polarisZhao/awesome-face)
-🔥  face releated algorithm, datasets and papers    
+🔥  face releated algorithm, datasets and papers   
 
 <!--ts-->
 
 * [ Paper / Algorithm](#-paper--algorithm)
+  
+  - [Survey](#Survey)
+  
   - [2D- Face Recognition](#2d--face-recognition)
-  - [Face Detection](#face-detection)
+- [Face Detection](#face-detection)
   - [Face Alignment](#face-alignment)
+  - [3D face reconstruction](#3D face reconstruction)
   - [Face attack &amp; Defends](#face-attack--defends)
-
+  
 * [Open source lib](#-open-source-lib) 
   - [face recognition](#face-recognition)
   -  [face detection](#face-detection-1)
 
 * [Datasets](#-datasets)
+  
   - [2D Face Recognition](#2d-face-recognition) 
   - [video face recognition](#video-face-recognition) 
   - [3D face recognition](#3d-face-recognition)
@@ -21,8 +26,8 @@
   - [cross age and cross pose](#cross-age-and-cross-pose)
   -  [Face Detection](#face-detection-2)
   -  [Face Attributes](#face-attributes)
-  -  [Others](#others)
-
+-  [Others](#others)
+  
 * [ Research home(conf &amp; workshop &amp; trans)](#-research-homeconf--workshop--trans)
 
 * [ References:](#-references)
@@ -30,6 +35,15 @@
 <!--te-->
 
 ## 📝 Paper / Algorithm
+
+#### Survey
+
+- Deep Face Recognition: A Survey  [paper](https://arxiv.org/abs/1804.06655)
+- Face Recognition: From Traditional to Deep Learning Methods  [paper](https://arxiv.org/abs/1811.00116)
+- Deep Facial Expression Recognition: A Survey  [paper](https://arxiv.org/abs/1804.08348)
+- A Survey on Face Detection and Classification for Partially Occluded images [paper](http://ijariie.com/AdminUploadPdf/A_Survey_on_Face_Detection_and_Classification_for_Partially_Occluded_images_ijariie9406.pdf)
+- 3D face recognition: a survey  [paper](https://link.springer.com/article/10.1186/s13673-018-0157-2)
+- Face detection techniques: a review [paper](https://link.springer.com/article/10.1007/s10462-018-9650-2)
 
 #### 2D- Face Recognition 
 
@@ -100,6 +114,26 @@ CosFace: Large Margin Cosine Loss for Deep Face Recognition(Tencent AI Lab)
 **[16] ArcFace:**  [**[paper]**](https://arxiv.org/pdf/1801.07698.pdf)  [**[code]**](https://github.com/deepinsight/insightface )
 
 ArcFace: Additive Angular Margin Loss for Deep Face Recognition
+
+**[17] Adaptive Face**    [paper](http://www.cbsr.ia.ac.cn/users/xiangyuzhu/papers/2019adaptiveface.pdf)
+
+Adaptive Margin and Sampling for Face Recognition
+
+**[18] AdaCos**   [Paper](https://arxiv.org/abs/1905.00292)
+
+ Adaptively Scaling Cosine Logits for Effectively Learning Deep Face Representations
+
+**[20] RegularFace**: [paper](http://mftp.mmcheng.net/Papers/19cvprRegularFace.pdf)
+
+Deep Face Recognition via Exclusive Regularization
+
+**[21] UniformFace**:  [paper](http://ivg.au.tsinghua.edu.cn/people/Yueqi_Duan/CVPR19_UniformFace%20Learning%20Deep%20Equidistributed%20Representation%20for%20Face%20Recognition.pdf)
+
+Learning Deep Equidistributed Representation for Face Recognition
+
+**[22] P2SGrad**:  [paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_P2SGrad_Refined_Gradients_for_Optimizing_Deep_Face_Models_CVPR_2019_paper.pdf)
+
+Refined Gradients for Optimizing Deep Face Models
 
 ![cos_loss](./img/cos_loss.jpg)
 
@@ -236,9 +270,9 @@ Joint 3D Face Reconstruction and Dense Face Alignment from A Single Image with 2
 #### face recognition
 
 - [face.evoLVe.](https://github.com/ZhaoJ9014/face.evoLVe.PyTorch)
-
 - [face_recognition.pytorch](https://github.com/grib0ed0v/face_recognition.pytorch)
 -  [insightface](https://github.com/deepinsight/insightface )
+-  [face_recognition_framework](https://github.com/XiaohangZhan/face_recognition_framework)
 
 #### face detection
 
@@ -260,6 +294,8 @@ Joint 3D Face Reconstruction and Dense Face Alignment from A Single Image with 2
 | **FaceScrub**              | It comprises a total of **106,863** face images of male and female **530** celebrities, with about **200 images per person**. | [Download](http://vintage.winklerbros.net/facescrub.html)    | 2014         |
 | **Mut1ny**🏅                | head/face segmentation dataset contains over 17.3k labeled images | [Download](http://www.mut1ny.com/face-headsegmentation-dataset) | 2018         |
 | **IMDB-Face**              | The dataset contains about 1.7 million faces, 59k identities, which is manually cleaned from 2.0 million raw images. | [Download](https://github.com/fwang91/IMDb-Face)             | 2018         |
+| **DiF**                    | 'Diversity in Faces' Dataset to Advance Study of Fairness in Facial Recognition Systems | [Download](https://www.ibm.com/blogs/research/2019/01/diversity-in-faces/) | 2019         |
+| **Megaface2**              | Level Playing Field for Million Scale Face Recognition(**672K people in 4.7M images**) | [Download](http://megaface.cs.washington.edu/dataset/download_training.html) | 2019         |
 
 #### Video face recognition 
 
@@ -323,6 +359,8 @@ Joint 3D Face Reconstruction and Dense Face Alignment from A Single Image with 2
 | **Caltech10k Web Faces**             | The dataset has 10,524 human faces of various resolutions and in **different settings** | [Download](http://www.vision.caltech.edu/Image_Datasets/Caltech_10K_WebFaces/#Description) | **landmarks**                                | 2005         |
 | **EmotioNet**                        | The EmotioNet database includes**950,000 images** with **annotated AUs**.  A **subset** of the images in the EmotioNet database correspond to **basic and compound emotions.** | [Download](http://cbcsl.ece.ohio-state.edu/EmotionNetChallenge/index.html#overview) | **AU and Emotion**                           | 2017         |
 | **RAF( Real-world Affective Faces)** | **29672** number of **real-world images**,  including **7** classes of basic emotions and **12** classes of compound emotions,  **5 accurate landmark locations**,  **37 automatic landmark locations**, **race, age range** and  **gender** **attributes** annotations per image | [Download](  <http://www.whdeng.cn/RAF/model1.html>)         | **Emotions、landmark、race、age and gender** | 2017         |
+| **FairFace**                         | FairFace: Face Attribute Dataset for **Balanced Race**, **Gender**, and **Age** |                                                              | **balance race compoition**                  | 2019         |
+| **LS3D-W**                           | A large-scale 3D face alignment dataset constructed by annotating the images from AFLW, 300VW, 300W and FDDB in a consistent manner with 68 points using the automatic method | [Download](https://adrianbulat.com/face-alignment)           | **3D landmark**                              | 2017         |
 
 #### Others
 
